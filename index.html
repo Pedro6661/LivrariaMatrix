@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EXERCICIO BIBLIOTECA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1 class="font">Calculadora de biblioteca :D</h1>
+    <div class="formulario">
+    <div class="campo">
+        <label> LIVRO</label>
+        <input type="text" id="livroNome"> <br><br>
+    </div>
+
+    <div class="campo">
+        <label> VALOR</label>
+        <input type="text" id="livroValor"><br><br>
+    </div>
+    </div>
+    <div class="formulario">
+        <button class="button4" type="button" onclick="preencherArray()">Cadastrar</button>
+        <button class="button4" type="button" onclick="limpar()">Limpar</button>
+        <button class="button4" type="button" onclick="remover()">Remover</button>
+        <button class="button4" type="button" onclick="exibirTabelaMedia()">Calcular</button>
+    </div>
+
+    <div >
+        <table class="tabela" id="tabela">
+
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

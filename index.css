@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: chartreuse;
+    align-items: center;
+    background-image:url(https://r4.wallpaperflare.com/wallpaper/226/63/724/matrix-background-desktop-wallpaper-695008ed71ba0daba657c84f8021060d.jpg)
+}
+.font{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000090;
+    padding: 10px;
+    border: solid 1px;
+}
+input[type=text] {
+    background-color: #000000;
+    color: chartreuse;
+  }
+
+  .button4 {
+    background-color: #00000090; 
+    color: chartreuse;
+    align-items: center;
+}
+.tabela{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.804);
+    color: chartreuse;
+}
+table, th, td{
+    text-align: center;
+    align-content: center;
+    border: solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
